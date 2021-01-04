@@ -1,0 +1,43 @@
+html {
+    font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: clamp(12px,calc(.7rem + .25vw),20px);
+    font-weight: 400;
+    line-height: 1.7;
+ }
+  p {
+
+    margin: 0.5em 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  
+  }
+  section {
+        background-color: rgb(168, 211, 247);
+        padding: 1px 20px;
+
+    }
+    input {
+        color: purple;
+        background-color: greenyellow;
+       
+
+    }
+    body.home .mini-card {
+        min-width: 300px;
+        min-height: 350px;
+        box-shadow: -2rem 0 3rem -2rem #000;
+    }
+    .mini-card {
+        padding: 1.5rem;
+        border-radius: 16px;
+        background: linear-gradient(85deg,#434343,#262626);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        transition: .2s;
+        font-size: 16px;
+        margin: 0;
+        background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+    }
